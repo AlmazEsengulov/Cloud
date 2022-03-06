@@ -1019,7 +1019,13 @@ a:hover{
 
         margin-bottom: 20px;
     }
-    .contact__lastname{
+    .contact__name input {
+        width: 100%;
+    }
+    .contact__num input {
+        width: 93%;
+    }
+    select{
         width: 100%;
     }
 }
