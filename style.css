@@ -346,8 +346,9 @@ a{
 }
 .technology__block{
     display: flex;
-
     padding-bottom: 65px;
+
+    
 }
 
 
@@ -825,10 +826,10 @@ a:hover{
 }
 @media(max-width: 575px){
     .cloud__icon {
-        font-size: 10px;
+        font-size: 15px;
     }
     .cloud__title {
-        font-size: 22px;
+        font-size: 24px;
 
         padding-top: 40px;
     }
@@ -837,15 +838,15 @@ a:hover{
     }
     .cloud__fon{
         width: 100%;
+        min-height: 200px;
     
     }
-
+    
 
 
 
     .img1 {
-        width: 151px;
-        height: 119px;
+        display: none;
     }
     
     .easyto__title {
@@ -855,13 +856,7 @@ a:hover{
         font-style: 8px;
     }
     .fa-play{
-        padding: 10px;
-        border-radius:20px;
-
-        position: absolute;
-        top: 170px;
-        left: -25px;
-        z-index: 1;
+       opacity: 0;
     }
 
 
@@ -869,7 +864,7 @@ a:hover{
     
 
     .features__title{
-        font-style: 18px;
+        font-style: 20px;
 
         padding: 20px 0;
     }
@@ -931,6 +926,38 @@ a:hover{
 
     .stay__block2{
         display: none;
+    }
+
+
+
+    
+    .technology__title {
+        font-size: 20px;
+    }
+    .technology__block1__num {
+        font-size: 50px;
+    }
+    .technology__text,
+    .technology__text2,
+    .technology__text3,
+    .technology__text4 {
+        position: absolute;
+        top: 35px;
+    }
+    .technology__text__title{
+        font-size: 14px;
+    }
+    .technology__text__text{
+        width: 100px;
+    }
+    .technology__btn a {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+
+    .stay__block1{
+        width: 100%;
     }
 }
 
