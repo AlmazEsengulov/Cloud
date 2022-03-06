@@ -852,6 +852,8 @@ a:hover{
     
     .easyto__title {
         font-size: 22px;
+
+        padding-top: 30px;
     }
     .easyto__text{
         font-style: 8px;
@@ -977,6 +979,48 @@ a:hover{
     .contact__sub{
         margin-bottom: 10px;
     }
-    
+
+
+
+    footer{
+        background-color: rgb(122, 120, 120);
+        color: #fff;
+    }
+    footer a{
+        color: #fff;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer__address,
+    .footer__services,
+    .footer__get,
+    .footer__we{
+        width: 50%;
+    }
+
+    .footer--title {
+        padding: 20px 0;
+    }
+    .footer--text{
+        padding-bottom: 10px;
+    }
+    .footer__text{
+        padding: 20px 0;
+    }
+
+    .footer__get{
+        margin-bottom: 20px;
+    }
+
+
+    .contact__name2{
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+    .contact__lastname{
+        width: 100%;
+    }
 }
 
