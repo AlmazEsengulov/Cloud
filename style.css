@@ -1040,5 +1040,8 @@ a:hover{
     select{
         width: 100%;
     }
+    .contact__sub input {
+        margin-bottom: 30px;
+    }
 }
 
