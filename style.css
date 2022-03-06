@@ -839,7 +839,7 @@ a:hover{
     }
     .cloud__fon{
         width: 100%;
-        min-height: 200px;
+        height: 50%;
     
     }
     
@@ -853,13 +853,19 @@ a:hover{
     .easyto__title {
         font-size: 22px;
 
-        padding-top: 30px;
+        padding-top: 40px;
     }
     .easyto__text{
         font-style: 8px;
     }
     .fa-play{
        opacity: 0;
+    }
+    .easyto{
+        width: 100%;
+    }
+    .easyto__btn {
+        padding-bottom: 40px;
     }
 
 
@@ -962,6 +968,12 @@ a:hover{
     .stay__block1{
         width: 100%;
     }
+    .stay__title {
+        padding-top: 40px;
+    }
+    .stay__block1 img {
+        padding-bottom: 30px;
+    }
 
     .contact1{
         width: 100%;
@@ -1010,7 +1022,7 @@ a:hover{
     }
 
     .footer__get{
-        margin-bottom: 20px;
+        margin-bottom: 35px;
     }
 
 
