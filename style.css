@@ -868,20 +868,27 @@ a:hover{
     
 
     .features__title{
-        font-style: 20px;
-
         padding: 20px 0;
+    }
+    .features__image{
+        flex-direction: column;
+        justify-content: center;
+
+        text-align: center;
     }
     .features__img1 img,
      .features__img2 img, 
     .features__img3 img {
-        width: 150px;
-        height: 120px;
+        
+        width: 250px;
+        height: 180px;
+
+        margin-bottom: 70px;
     }
     .features__text__title,
      .features__text__title2,
      .features__text__title3{
-        font-size: 12px;
+        font-size: 18px;
 
         padding-top: 5px;
         padding-bottom: 5px;
@@ -889,7 +896,7 @@ a:hover{
     .features__text__text,
     .features__text__text2, 
     .features__text__text3 {
-        font-size: 8px;
+        font-size: 14px;
 
         padding-bottom: 5px;
 
@@ -898,7 +905,7 @@ a:hover{
     .features__text,
     .features__text2,
     .features__text3{
-        width: 130px;
+        width: 200px;
 
         padding-bottom: 0;
 
@@ -906,22 +913,22 @@ a:hover{
     }
     .features__text {
         position: absolute;
-        top: 85px;
-        left: 10px;
+        top: 90px;
+        left: 110px;
         z-index: 1;
     }
     .features__text2{
         position: absolute;
-        top: 85px;
-        left: 190px;
-        bottom: 20px;
+        top: 360px;
+        left: 105px;
+        bottom: 338px;
         z-index: 1;
         
     }
     .features__text3{
         position: absolute;
-        top: 85px;
-        right: 10px;
+        top: 600px;
+        right: 100px;
         z-index: 1;
     }
     .features__image{
